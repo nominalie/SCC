@@ -1,7 +1,7 @@
 # SCC
 Supreme Court of Canada citation parser.
 
-Unsophisticated Python scripts to parse "Authors Cited" references in SCC decisions, as formatted at CanLII.org (html pages). 
+Basic Python scripts to parse "Authors Cited" references in SCC decisions, as formatted at CanLII.org (html pages). Outputs individual citations to a csv file.
 
 Note: File read path is not for CanLII website, which does not permit automated scraping/processing of its content. Contact CanLII directly for permissions and restrictions.
 
