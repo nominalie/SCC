@@ -6,7 +6,9 @@ class SCC:
 		
 		self.caseURLs = "scc-links.csv" #local filepath of input file
 		#self.queryURL = "https://www.canlii.org/en/ca/scc/doc/"
-		self.queryURL = "http://127.0.0.1:8082/html/SCC/ExportArchives/Documents/"#server path for SCC decision files
+		
+		#Web server root path where SCC decisions (html files) are stored. Change to your path.
+		self.queryURL = "http://127.0.0.1:8082/html/SCC/ExportArchives/Documents/"
 
 		self.outRows=[]
 
